@@ -10,7 +10,7 @@ import org.apache.james.mime4j.util.MimeUtil;
 import com.fsck.k9.mail.internet.CharsetSupport;
 import com.fsck.k9.mail.internet.TextBody;
 
-public abstract class Multipart implements CompositeBody {
+public abstract class Multipart implements Body {
     private Part mParent;
 
     private final List<BodyPart> mParts = new ArrayList<BodyPart>();
